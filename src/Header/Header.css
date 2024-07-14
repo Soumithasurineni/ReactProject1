@@ -1,0 +1,43 @@
+.NavBarComponent{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    padding: 15px;
+    width:60px;
+    height:60px;
+    cursor: pointer;
+}
+.NavIcons{
+    display: flex;
+    list-style-type: none;
+}
+.NavIcons:hover{
+    cursor: pointer;
+}
+.NavIcons >li{
+    font-size: 20px;
+    padding: 20px;
+}
+.ResCard{
+    width:290px;
+    height:350px;
+    padding: 5px;
+    background-color: rgb(182, 182, 182);
+    margin:1rem 1rem;
+}
+.ResImage{
+    width: 100%;
+}
+.ResCard:hover{
+    cursor: pointer;
+    border:1px solid black;
+}
+.resContainer{
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
